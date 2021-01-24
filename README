@@ -1,0 +1,13 @@
+# Project
+
+ This project is responsible for testing UI https://hello.friday.de/quote/selectPrecondition.
+
+#Browser
+
+Every test can be executed on three different browser: CHROME, FIREFOX, SAFARI
+
+To run test on different browser :
+`mvn -Dbrowser=#browserTypee`
+For example:
+- Execute test on firefox `mvn -Dbrowser=firefox test`
+- Execute test on chrome `mvn -Dbrowser=chrome test`
